@@ -1,0 +1,30 @@
+@media only screen and (max-width: 426px) {
+    .heropage {
+        flex-direction: column;
+        gap: 3rem !important;
+        align-items: center !important;
+    }
+    .right{
+        margin-left: -30px;
+    }
+    .header {
+        font-size: 45px !important;
+    }
+    .description {
+        font-size: 25px !important;
+    }
+    .uiux, .webdesign, .frontend, .illustration {
+        -webkit-text-stroke-width: 1px;
+    }
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button1, .button2 {
+        font-size: 20px !important;
+    }
+    .lastpage {
+        font-size: 30px !important;
+        text-align: center;
+    }
+}

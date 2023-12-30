@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px){
+    .navbar-light .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        align-items: flex-end;
+    }
+    .left>h1 {
+        font-size: 50px;
+    }
+    .left>p {
+        font-size: 24px;
+    }
+    .right img {
+        height: 300px;
+    }
+    .hireme {
+        width: 250px;
+        padding: 10px 0px;
+    }
+
+    .social-wrapper a img, .social a img {
+        height: 50px;
+    }
+    .py-5 {
+        padding-top: 3rem!important;
+        padding-bottom: 0 !important;
+    }
+    .header {
+        font-size: 60px;
+    }
+    .description {
+        font-size: 30px;
+    }
+    .button1, .button2 {
+        font-size: 26px;
+    }
+    #service-card {
+        width: 300px;
+    }
+    .works-wrapper img {
+        height: 300px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .title hr {
+        width: 50px;
+    }
+    .details {
+        font-size: 16px;
+    }
+    .lastpage {
+        font-size: 40px;
+    }
+}

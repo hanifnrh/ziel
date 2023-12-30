@@ -1,0 +1,37 @@
+@media only screen and (max-width: 1024px) {
+    .right img {
+        height: 400px;
+    }
+    .left>h1 {
+        font-size: 70px;
+    }
+
+    .left>p {
+        font-size: 32px;
+    }
+    .heropage {
+        gap: 0;
+        width: 80%;
+    }
+
+    hr {
+        width: auto;
+    }
+
+    .hireme {
+        width: 300px;
+        padding: 18px 0px;
+    }
+
+    .header {
+        font-size: 80px;
+    }
+
+    #service-card {
+        width: 400px;
+    }
+
+    .works-wrapper img {
+        height: 400px;
+    }
+}
