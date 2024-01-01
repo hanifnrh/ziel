@@ -13,11 +13,18 @@
     <link rel="stylesheet" href="/styles/laptop.css">
     <link rel="stylesheet" href="/styles/tablet.css">
 
+    <!-- DATA AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="icon" href="/assets/icon.svg" type="image/x-icon">
     <title>Ziel</title>
 </head>
 
 <body>
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
     <nav class="navbar navbar-expand-lg navbar-light py-5">
         <div class="container-fluid w-75">
             <a class="navbar-brand" href="#"><img src="/assets/logo.svg" alt=""></a>
@@ -39,44 +46,45 @@
     <div class="container" id="hero">
         <div class="row d-flex justify-content-center">
             <div class="d-flex heropage align-items-end justify-content-center">
-            
-                    <div class="left d-flex flex-column justify-content-center">
-                        <h1>
-                            Hello! <br>
-                            <span id="iam">I am</span> <span #ziel>Ziel</span>
-                        </h1>
-                        <p>
-                            UI/UX Designer, Front End Web Developer, Web Designer, & Digital Illustrator
-                        </p>
-                        <div class="social">
-                            <span>
-                                <a href="https://www.linkedin.com/in/nurrahmat-hanif-635055218" target="_blank">
-                                    <img src="/assets/linkedin.svg" alt="LinkedIn">
-                                </a>
-                            </span>
-                            <span class="social-wrapper">
-                                <a href="https://www.deviantart.com/artofziel" target="_blank">
-                                    <img src="/assets/deviantart.svg" alt="">
-                                </a>
-                            </span>
-                            <span class="social-wrapper">
-                                <a href="https://www.instagram.com/portoziel?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
-                                    <img src="/assets/instagram.svg" alt="" target="_blank">
-                                </a>
-                            </span>
-                            <span class="social-wrapper">
-                                <a href="https://github.com/hanifnrh" target="_blank">
-                                    <img src="/assets/github.svg" alt="">
-                                </a>
-                            </span>
-                            <span class="social-wrapper">
-                                <a href="https://dribbble.com/portoziel" target="_blank">
-                                    <img src="/assets/dribbble.svg" alt="">
-                                </a>
-                            </span>
-                        </div>
-                        <hr>
+
+                <div class="left d-flex flex-column justify-content-center">
+                    <h1>
+                        Hello! <br>
+                        <span id="iam">I am</span> <span #ziel>Ziel</span>
+                    </h1>
+                    <p>
+                        UI/UX Designer, Front End Web Developer, Web Designer, & Digital Illustrator
+                    </p>
+                    <div class="social">
+                        <span>
+                            <a href="https://www.linkedin.com/in/nurrahmat-hanif-635055218" target="_blank">
+                                <img src="/assets/linkedin.svg" alt="LinkedIn">
+                            </a>
+                        </span>
+                        <span class="social-wrapper">
+                            <a href="https://www.deviantart.com/artofziel" target="_blank">
+                                <img src="/assets/deviantart.svg" alt="">
+                            </a>
+                        </span>
+                        <span class="social-wrapper">
+                            <a href="https://www.instagram.com/portoziel?utm_source=ig_web_button_share_sheet&igsh=OGQ5ZDc2ODk2ZA=="
+                                target="_blank">
+                                <img src="/assets/instagram.svg" alt="" target="_blank">
+                            </a>
+                        </span>
+                        <span class="social-wrapper">
+                            <a href="https://github.com/hanifnrh" target="_blank">
+                                <img src="/assets/github.svg" alt="">
+                            </a>
+                        </span>
+                        <span class="social-wrapper">
+                            <a href="https://dribbble.com/portoziel" target="_blank">
+                                <img src="/assets/dribbble.svg" alt="">
+                            </a>
+                        </span>
                     </div>
+                    <hr>
+                </div>
 
                 <div class="right d-flex flex-column justify-content-center align-items-center">
                     <img src="assets/picture.png" alt="">
@@ -86,23 +94,26 @@
         </div>
     </div>
 
-    <div class="container" id="about">
+    <div data-aos="fade-up" data-aos-duration="3000" class="container" id="about">
         <div class="row d-flex flex-column align-items-center justify-content-center">
             <div class="header d-flex justify-content-center">
                 About Me
             </div>
             <div class="description col-10 text-center">
-                I'm Nurrahmat Hanif and known as Ziel, a Computer Engineering undergraduate student at Diponegoro University. I do <span id="outlined" class="uiux">UI/UX Design</span>, <span id="outlined" class="webdesign">Web Design</span>, <span id="outlined" class="frontend">Front End Web Development</span>, and <span id="outlined" class="illustration">Digital Illustration</span>.
+                I'm Nurrahmat Hanif and known as Ziel, a Computer Engineering undergraduate student at Diponegoro
+                University. I do <span id="outlined" class="uiux">UI/UX Design</span>, <span id="outlined"
+                    class="webdesign">Web Design</span>, <span id="outlined" class="frontend">Front End Web
+                    Development</span>, and <span id="outlined" class="illustration">Digital Illustration</span>.
             </div>
             <div class="buttons d-flex justify-content-center">
                 <a href="mailto:nurrahmathaniff@gmail.com">
                     <button type="button" class="button1">Hire Me</button>
                 </a>
-                
+
                 <a href="/assets/CV ENGLISH HANIF.pdf" download="CV.pdf">
                     <button type="button" class="button2">Download CV</button>
                 </a>
-                
+
             </div>
         </div>
 
@@ -110,26 +121,26 @@
 
     <div class="container" id="services">
         <div class="row d-flex flex-column align-items-center justify-content-center">
-            <div class="header d-flex justify-content-center">
+            <div data-aos="fade-down" data-aos-duration="3000" class="header d-flex justify-content-center">
                 My Services
             </div>
             <div class="service-wrapper flex-wrap d-flex justify-content-center py-5">
-                <img src="/assets/uiux.svg" alt="" id="service-card">
-                <img src="assets/frontend.svg" alt="" id="service-card">
-                <img src="assets/webdesign.svg" alt="" id="service-card">
-                <img src="assets/illustration.svg" alt="" id="service-card">
+                <img data-aos="zoom-in-left" data-aos-duration="5000" src="/assets/uiux.svg" alt="" id="service-card">
+                <img data-aos="zoom-in-right" data-aos-duration="5000" src="assets/frontend.svg" alt="" id="service-card">
+                <img data-aos="zoom-in-left" data-aos-duration="5000" src="assets/webdesign.svg" alt="" id="service-card">
+                <img data-aos="zoom-in-right"  data-aos-duration="5000" src="assets/illustration.svg" alt="" id="service-card">
             </div>
         </div>
     </div>
 
     <div class="container" id="works">
         <div class="row d-flex flex-column align-items-center justify-content-center">
-            <div class="header d-flex justify-content-center">
+            <div data-aos="fade-down" data-aos-duration="3000" class="header d-flex justify-content-center">
                 My Works
             </div>
             <div class="works-wrapper flex-wrap d-flex justify-content-center py-5">
                 <div class="artofziel d-flex flex-column align-items-start">
-                    <img src="/assets/artofziel.png" alt="" id="works-card">
+                    <img data-aos="zoom-in" data-aos-duration="3000"src="/assets/artofziel.png" alt="" id="works-card">
                     <div class="artofziel-detail">
                         <div class="title d-flex">
                             <hr> artofziel Website
@@ -142,7 +153,7 @@
                 </div>
 
                 <div class="jiwakita d-flex flex-column align-items-start">
-                    <img src="/assets/jiwakita.png" alt="" id="works-card">
+                    <img data-aos="zoom-in" data-aos-duration="3000" src="/assets/jiwakita.png" alt="" id="works-card">
                     <div class="jiwakita-detail">
                         <div class="title d-flex">
                             <hr> jiwakita Prototype
@@ -155,7 +166,7 @@
                 </div>
 
                 <div class="gudegbumar d-flex flex-column align-items-start">
-                    <img src="/assets/gudegbumar.png" alt="" id="works-card">
+                    <img data-aos="zoom-in" data-aos-duration="3000" src="/assets/gudegbumar.png" alt="" id="works-card">
                     <div class="gudegbumar-detail">
                         <div class="title d-flex">
                             <hr> Gudeg Bu Mar Website
@@ -168,7 +179,7 @@
                 </div>
 
                 <div class="academiku d-flex flex-column align-items-start">
-                    <img src="/assets/academiku.png" alt="" id="works-card">
+                    <img data-aos="zoom-in" data-aos-duration="3000" src="/assets/academiku.png" alt="" id="works-card">
                     <div class="academiku-detail">
                         <div class="title d-flex">
                             <hr> Academiku Prototype
@@ -186,12 +197,14 @@
 
     <div class="container" id="lastpage">
         <div class="lastpage-wrapper row d-flex flex-column align-items-center justify-content-center">
-            <div class="lastpage d-flex justify-content-center">
+            <div data-aos="fade-up"
+            data-aos-anchor-placement="center-center" class="lastpage d-flex justify-content-center">
                 Interested in working with me?
             </div>
 
             <div class="buttons d-flex justify-content-center">
-                <a href="https://api.whatsapp.com/send/?phone=%2B6285794202130&text&type=phone_number&app_absent=0" target="_blank">
+                <a href="https://api.whatsapp.com/send/?phone=%2B6285794202130&text&type=phone_number&app_absent=0"
+                    target="_blank">
                     <button type="button" class="button1">Contact Me</button>
                 </a>
             </div>
@@ -242,17 +255,19 @@
                 <a href="https://gudegbumar.vercel.app" target="_blank">
                     Gudeg Bu Mar
                 </a>
-                <a href="https://www.figma.com/proto/JOBOHqk9w13ZWEth8bbTTZ/jiwakita?page-id=170%3A2702&type=design&node-id=874-25083&viewport=-4212%2C-1655%2C0.49&t=uznVqTUPbuETuIx0-1&scaling=scale-down&starting-point-node-id=874%3A25000&show-proto-sidebar=1&mode=design" target="_blank">
+                <a href="https://www.figma.com/proto/JOBOHqk9w13ZWEth8bbTTZ/jiwakita?page-id=170%3A2702&type=design&node-id=874-25083&viewport=-4212%2C-1655%2C0.49&t=uznVqTUPbuETuIx0-1&scaling=scale-down&starting-point-node-id=874%3A25000&show-proto-sidebar=1&mode=design"
+                    target="_blank">
                     jiwakita
                 </a>
-                <a href="https://www.figma.com/proto/4dpPY9tTTpaERumMd80OqI/Academiku?page-id=0%3A1&type=design&node-id=1-58&viewport=-79%2C-374%2C1.34&t=ykdmYunbj7W0aZfQ-1&scaling=scale-down&starting-point-node-id=1%3A58&show-proto-sidebar=1&mode=design" target="_blank">
+                <a href="https://www.figma.com/proto/4dpPY9tTTpaERumMd80OqI/Academiku?page-id=0%3A1&type=design&node-id=1-58&viewport=-79%2C-374%2C1.34&t=ykdmYunbj7W0aZfQ-1&scaling=scale-down&starting-point-node-id=1%3A58&show-proto-sidebar=1&mode=design"
+                    target="_blank">
                     Academiku
                 </a>
             </div>
 
             <div class="column">
                 <h2>Email</h2>
-                <button  onclick="window.location.href = 'mailto:nurrahmathaniff@gmail.com'" class="emailme">
+                <button onclick="window.location.href = 'mailto:nurrahmathaniff@gmail.com'" class="emailme">
                     Email Me <i class="fa-solid fa-paper-plane"></i>
                 </button>
             </div>
@@ -271,7 +286,10 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="main.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="https://kit.fontawesome.com/0db2f00345.js" crossorigin="anonymous"></script>
 </body>
 
